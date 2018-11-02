@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: black;
+}
+
+h1 img{
+  width:80px;
+  margin: 20px 40px 5px 20px;
+}
+
+.container {
+  width: 800px;
+  margin: 100px auto 200px auto;
+}
+
+.container h2 {
+  font-family: skia;
+  color: white;
+  margin-bottom: 90px;
+}
+
+.container p {
+  font-family: georgia;
+  color: grey;
+  line-height: 35px;
+  font-weight: 200;
+}
+
+.menu li a{
+  text-decoration: none;
+  color:white;
+  font-family: skia;
+  font-weight: bold;
+  font-size: 0.7em;
+
+}
+
+.menu li{
+  list-style: none;
+  margin: 16px 0;
+}
+
+.wrapper{
+  position: relative;
+}
+.menu ul{
+  position: absolute;
+  right: 50px;
+  top:20px;
+}
+
+.menu .red{
+  color: #FF4B4B;
+}
+
+.redtext{
+
+  width:600px;
+  position: fixed;
+  top:200px;
+  left:400px;
+}
